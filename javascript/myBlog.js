@@ -18,9 +18,11 @@ app.controller('BlogContrl', ['$scope', function($scope){
 		$scope.imageUrl = '';
 
 	}
-	$scope.removerNota = function(i){
-		console.log(i)
-		archive.splice(i, 1);
+	
+	$scope.removerNota = function(post){
+		console.log(archive.indexOf(post))
+		archive.splice(archive.indexOf(post), 1);
+
 	}
 }]);
 
