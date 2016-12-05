@@ -25,31 +25,35 @@ app.controller('BlogContrl', ['$scope', function($scope){
 
 	}
 }]);
-
 var archive = [{
+	createdAt: 1480937608894,
 	title: 'My first even Post',
 	text: 'Hendrik\'s answer in the comments above will work but probably isn',
 	cor: 1,
 	imageUrl: 'http://bs.simplusmedia.com/i/730/838/banana-beneficios.jpg'
 },
 {
+	createdAt: 1480937608894,
 	title: 'My first odd Post',
 	text: 'Hendrik\'s answer in the comments above will work but probably isn',
 	cor: 2,
 	imageUrl: 'http://www.saudedica.com.br/wp-content/uploads/2014/05/Benef%C3%ADcios-da-Ma%C3%A7%C3%A3.jpg'
 },
 {
+	createdAt: 1480937608894,
 	title: 'My first odd Post',
 	text: 'Hendrik\'s answer in the comments above will work but probably isn',
 	cor: 3,
 	imageUrl: 'http://viniciusofp.com.br/wp-content/uploads/2016/03/olmoemcartazcapa-700x259.jpg'
 },
 {
+	createdAt: 1480937608894,
 	title: 'My first odd Post',
 	text: 'Hendrik\'s answer in the comments above will work but probably isn',
 	cor: 4
 },
 {
+	createdAt: 1480937608894,
 	title: 'My first odd Post',
 	text: 'Hendrik\'s answer in the comments above will work but probably isn',
 	cor: 5
